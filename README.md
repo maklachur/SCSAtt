@@ -9,7 +9,7 @@ Efficient Visual Tracking with Stacked Channel-Spatial Attention Learning publis
 ### OTB100
 ![example](https://github.com/maklachur/SCSAtt/blob/master/otb100_result.jpg)
 ### OTB100
-![example](https://github.com/maklachur/SCSAtt/blob/master/OTB50_result.jpg)
+![example](https://github.com/maklachur/SCSAtt/blob/master/otb_result.jpg)
 
 ```
 @article{mmrahman2020scsatt,  author={M. M. {Rahman} and M. {Fiaz} and S. K. {Jung}},  
