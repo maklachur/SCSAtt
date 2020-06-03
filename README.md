@@ -1,5 +1,10 @@
 # SCSAtt
 Efficient Visual Tracking with Stacked Channel-Spatial Attention Learning published in IEEE Access 2020.
+
+## Proposed framework
+
+![example](https://github.com/maklachur/SCSAtt/blob/master/Framework.jpg)
+
 ```
 @article{mmrahman2020scsatt,  author={M. M. {Rahman} and M. {Fiaz} and S. K. {Jung}},  
 journal={IEEE Access},  
