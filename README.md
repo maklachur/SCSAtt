@@ -11,12 +11,12 @@ Efficient Visual Tracking with Stacked Channel-Spatial Attention Learning publis
 ### OTB100
 ![example](https://github.com/maklachur/SCSAtt/blob/master/otb100_result.jpg)
 ```
-@article{mmrahman2020scsatt,  author={M. M. {Rahman} and M. {Fiaz} and S. K. {Jung}},  
-journal={IEEE Access},  
-title={Efficient Visual Tracking with Stacked Channel-Spatial Attention Learning}, 
+@ARTICLE{9102303,  author={M. M. {Rahman} and M. {Fiaz} and S. K. {Jung}},  
+journal={IEEE Access},   
+title={Efficient Visual Tracking With Stacked Channel-Spatial Attention Learning},   
 year={2020},  
-volume={8},
-pages={1-13}
+volume={8}, 
+pages={100857-100869}
 }
 ```
 Code and results will publish soon...
