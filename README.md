@@ -2,6 +2,8 @@
 Efficient Visual Tracking with Stacked Channel-Spatial Attention Learning published in IEEE Access 2020.
 <a href="https://ieeexplore.ieee.org/document/9102303">[Paper link]</a>
 
+![](motorRolling-SCSAtt.gif)
+
 ## Proposed framework
 
 ![example](https://github.com/maklachur/SCSAtt/blob/master/Framework.jpg)
@@ -20,4 +22,4 @@ volume={8},
 pages={100857-100869}
 }
 ```
-Code and results will publish soon...
+Code will publish soon...
