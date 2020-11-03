@@ -1,16 +1,23 @@
-# SCSAtt
+# SCSAtt Tracker
 Efficient visual tracking with stacked channel-spatial attention learning (SCSAtt), IEEE Access 2020.
 [Paper link](https://ieeexplore.ieee.org/document/9102303/)
+
+
+<p align="center">
+  <img src="motorRolling-SCSAtt.gif" />
+</p>
+
 ## Summary
 Siamese stacked channel-spatial attention learning for visual tracking where channel attention emphasizes 'what' informative part of the target image has to focus and spatial attention responsible for 'where' the informative part is located. Therefore, combining these two attention modules learn 'what' and 'where' to focus or suppress the target information to locate it efficiently.
 
+![example](https://github.com/maklachur/SCSAtt/blob/master/Framework.jpg)
+
 This work implemented using python with the PyTorch deep learning framework and performed all experiments on a desktop with Intel(R) Core(TM) i7-8700 CPU @ 3.20 GHz and Nvidia GeForce RTX 2080 Super GPU.
 
-##### To run this code, please consider the following instructions:
+### To run this code, please consider the following instructions:
+N.B. To re-implement this work, it is recommended to install python 3.6 with the PyTorch >= 1.0.
 
 ## Training
-N.B. To reimplement this work, it is recommended to install python 3.6 with the PyTorch >= 1.0.
-
 First, we need to configure the training dataset path from `config.py` file to start training the network.
 After completing the training dataset configuratiion, run the `train.py` file. 
 
@@ -47,6 +54,11 @@ All of the results are computed and compared based on the official OTB and VOT t
 | TC128         | 0.549            | 0.744            |
 | UAV123        | 0.547            | 0.776            |
 
+### OTB50
+![example](https://github.com/maklachur/SCSAtt/blob/master/otb50_result.jpg)
+### OTB100
+![example](https://github.com/maklachur/SCSAtt/blob/master/otb100_result.jpg)
+
 ### Dependencies/ Prerequisite
 
 Install GOT-10k toolkit using the instructions from original site(recommended)before running this code:
@@ -61,4 +73,14 @@ OR follow the simple steps to install:
 
 ```
 2. pip install --upgrade git+https://github.com/got-10k/toolkit.git@master
+```
+If you  find useful please cite as,
+```
+@ARTICLE{9102303,  author={M. M. {Rahman} and M. {Fiaz} and S. K. {Jung}},  
+journal={IEEE Access},   
+title={Efficient Visual Tracking With Stacked Channel-Spatial Attention Learning},   
+year={2020},  
+volume={8}, 
+pages={100857-100869}
+}
 ```
