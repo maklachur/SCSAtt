@@ -45,7 +45,7 @@ Example: benchmark_path is `data/OTB`, `data/UAV123`, `data/TC128`
 ## Performance evaluation results
 All of the results are computed and compared based on the official OTB and VOT toolkit ([OTB (50/100)](http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html), [VOT (2016~2018)](http://votchallenge.net) 
 
-#### OTB2015 / TColor128 / UAV123
+#### OTB2015 / OTB50/ TColor128 / UAV123
 
 | Dataset       | Success Score    | Precision Score  |
 |:-------------:|:----------------:|:----------------:|
@@ -69,7 +69,7 @@ OR follow the simple steps to install:
 ```
 1. pip install --upgrade got10k
 ```
-#### Stay up-to-date:
+#### Stay up-to-date run the following command:
 
 ```
 2. pip install --upgrade git+https://github.com/got-10k/toolkit.git@master
