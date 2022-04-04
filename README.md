@@ -8,7 +8,7 @@ Efficient visual tracking with stacked channel-spatial attention learning (SCSAt
 </p>
 
 ## Summary
-Siamese stacked channel-spatial attention learning for visual tracking where channel attention emphasizes 'what' informative part of the target image has to focus and spatial attention responsible for 'where' the informative part is located. Therefore, combining these two attention modules learn 'what' and 'where' to focus or suppress the target information to locate it efficiently.
+Siamese stacked channel-spatial attention learning for visual tracking where channel attention emphasizes 'what' informative part of the target image has to focus and spatial attention responsible for 'where' the informative part is located. Therefore, combining these two attention modules learn 'what' and 'where' to focus or suppress the target information to locate it efficiently. This process help to improve the overall baseline tracking performance.
 
 ![example](https://github.com/maklachur/SCSAtt/blob/master/Framework.jpg)
 
@@ -45,7 +45,7 @@ Example: benchmark_path is `data/OTB`, `data/UAV123`, `data/TC128`
 ## Performance evaluation results
 All of the results are computed and compared based on the official OTB and VOT toolkit ([OTB (50/100)](http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html), [VOT (2016~2018)](http://votchallenge.net) 
 
-#### OTB2015 / TColor128 / UAV123
+#### OTB2015 / OTB50/ TColor128 / UAV123
 
 | Dataset       | Success Score    | Precision Score  |
 |:-------------:|:----------------:|:----------------:|
@@ -69,7 +69,7 @@ OR follow the simple steps to install:
 ```
 1. pip install --upgrade got10k
 ```
-#### Stay up-to-date:
+#### Stay up-to-date run the following command:
 
 ```
 2. pip install --upgrade git+https://github.com/got-10k/toolkit.git@master
