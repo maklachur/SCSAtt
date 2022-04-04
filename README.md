@@ -8,7 +8,7 @@ Efficient visual tracking with stacked channel-spatial attention learning (SCSAt
 </p>
 
 ## Summary
-Siamese stacked channel-spatial attention learning for visual tracking where channel attention emphasizes 'what' informative part of the target image has to focus and spatial attention responsible for 'where' the informative part is located. Therefore, combining these two attention modules learn 'what' and 'where' to focus or suppress the target information to locate it efficiently.
+Siamese stacked channel-spatial attention learning for visual tracking where channel attention emphasizes 'what' informative part of the target image has to focus and spatial attention responsible for 'where' the informative part is located. Therefore, combining these two attention modules learn 'what' and 'where' to focus or suppress the target information to locate it efficiently. This process help to improve the overall baseline tracking performance.
 
 ![example](https://github.com/maklachur/SCSAtt/blob/master/Framework.jpg)
 
