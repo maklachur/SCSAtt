@@ -67,12 +67,12 @@ Install GOT-10k toolkit using the instructions from original site(recommended)be
 OR follow the simple steps to install:
 #### Install the toolkit using pip (recommended):
 ```
-1. pip install --upgrade got10k
+pip install --upgrade got10k
 ```
 #### Stay up-to-date run the following command:
 
 ```
-2. pip install --upgrade git+https://github.com/got-10k/toolkit.git@master
+pip install --upgrade git+https://github.com/got-10k/toolkit.git@master
 ```
 If you  find useful please cite as,
 ```
