@@ -74,6 +74,10 @@ pip install --upgrade got10k
 ```
 pip install --upgrade git+https://github.com/got-10k/toolkit.git@master
 ```
+### Acknowledgments
+Thanks for their amazing [SiamFC](https://github.com/huanglianghua/siamfc-pytorch) work
+
+### Citation
 If you  find useful please cite as,
 ```
 @ARTICLE{9102303,  author={M. M. {Rahman} and M. {Fiaz} and S. K. {Jung}},  
